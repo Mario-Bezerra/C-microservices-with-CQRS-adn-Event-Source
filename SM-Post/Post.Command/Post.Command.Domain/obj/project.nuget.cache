@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "plvMaIbEE4gJ4IejWtaWRne6xFE//YP4KUFcKpbJBLAyAaEx8uXpp2Up9FcG1LWCuYT5sdXhTHF7gRSafqyN9A==",
+  "dgSpecHash": "8wdC5FsQlq363JiVU3s5itZrXLIw4S61Bi+Uv1f788vTy1pQSujo04K619L5JLNNk8cANts3iomc+cAAF9XQhg==",
   "success": true,
   "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\microservices with C#\\SM-Post\\Post.Command\\Post.Command.Domain\\Post.Command.Domain.csproj",
   "expectedPackageFiles": [

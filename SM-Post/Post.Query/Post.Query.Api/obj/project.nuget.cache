@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KiMrJEV0kzjpzu61by6GAX0T4jRjLy5qk9hw9fEPifnADg4yFL84+mpZAPKPWDmU70de3p2Ab1nZuU6lg9U2cA==",
+  "dgSpecHash": "PxOX3PEE7UdqT3X1NZEfEM1VrnV5oYVxAuzuWg9KJijPSUl8lChWzNUIwBs7J2tEm1qVg+bBTaIVvPTq/cTedA==",
   "success": true,
   "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\microservices with C#\\SM-Post\\Post.Query\\Post.Query.Api\\Post.Query.Api.csproj",
   "expectedPackageFiles": [

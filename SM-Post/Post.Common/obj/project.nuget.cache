@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gTVsoJLRQ2/ltWpnNNRiJGU84zdrTCGCxmKQ/lvOVUnGm3lToqqUNcUqflo/FDlnWCsUpAJ8cA7wqj4R+pnmQg==",
+  "dgSpecHash": "7yjZ1TVKj0OD37piW0yqYM/VdkBQkeQ6aW32tfmY1zDtpHVdBhP/V2DXbZHanOfSG5sGD8VtnSE82TE5ybZqUA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\gabri\\OneDrive\\Área de Trabalho\\microservices with C#\\SM-Post\\Post.Common\\Post.Common.csproj",
+  "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\microservices with C#\\SM-Post\\Post.Common\\Post.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
