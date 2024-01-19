@@ -2,7 +2,7 @@ using CQRS.Core.Events;
 
 namespace Post.Common.Events {
     public class CommentAddedEvent : BaseEvent {
-        public CommentAddedEvent(string type) : base(nameof(CommentAddedEvent)) {
+        public CommentAddedEvent() : base(nameof(CommentAddedEvent)) {
 
         }
 
