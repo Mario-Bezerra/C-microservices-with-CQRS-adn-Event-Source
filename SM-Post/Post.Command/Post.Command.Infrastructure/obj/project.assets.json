@@ -1136,7 +1136,8 @@
           "targetAlias": "net8.0",
           "projectReferences": {
             "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\microservices with C#\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj": {
-              "projectPath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\microservices with C#\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj"
+              "projectPath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\microservices with C#\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj",
+              "privateAssets": "all"
             },
             "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\microservices with C#\\SM-Post\\Post.Command\\Post.Command.Domain\\Post.Command.Domain.csproj": {
               "projectPath": "C:\\Users\\gabri\\OneDrive\\Área de Trabalho\\microservices with C#\\SM-Post\\Post.Command\\Post.Command.Domain\\Post.Command.Domain.csproj"
