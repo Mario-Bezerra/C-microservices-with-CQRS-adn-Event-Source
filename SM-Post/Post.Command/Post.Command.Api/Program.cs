@@ -3,6 +3,7 @@ using CQRS.Core.Handlers;
 using CQRS.Core.Infrastructure;
 using Post.Command.Api.Commands;
 using Post.Command.Domain.Aggregate;
+using Post.Command.Infrastructure;
 using Post.Command.Infrastructure.Config;
 using Post.Command.Infrastructure.Handlers;
 using Post.Command.Infrastructure.Repositories;
@@ -16,6 +17,18 @@ builder.Services.AddScoped<IEventStoreRepository, EventStoreRepository>();
 builder.Services.AddScoped<IEventStore, EventStore>();
 builder.Services.AddScoped<IEventSourcingHandler<PostAggregate>, EventSourcingHandler>();
 builder.Services.AddScoped<ICommandHandler, CommandHandler>();
+
+//register command handler methods
+var commandHandler = builder.Services.BuildServiceProvider().GetRequiredService<ICommandHandler>();
+var dispatcher = new CommandDispatcher();
+dispatcher.RegisterHandler<NewPostCommand>(commandHandler.HandleAsync);
+dispatcher.RegisterHandler<EditMessageCommand>(commandHandler.HandleAsync);
+dispatcher.RegisterHandler<LikePostCommand>(commandHandler.HandleAsync);
+dispatcher.RegisterHandler<AddCommentCommand>(commandHandler.HandleAsync);
+dispatcher.RegisterHandler<EditCommentCommand>(commandHandler.HandleAsync);
+dispatcher.RegisterHandler<RemoveCommentCommand>(commandHandler.HandleAsync);
+dispatcher.RegisterHandler<DeletePostCommand>(commandHandler.HandleAsync);
+builder.Services.AddSingleton<ICommandDispatcher>(_ => dispatcher);
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddControllers();
