@@ -53,3 +53,4 @@ volumes:
 networks:
   default:
       name: mydockernetwork
+      external: true
